@@ -1,0 +1,22 @@
+body {
+
+    font-family: roboto, sans-serif;
+
+}
+
+
+header {
+
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul {
+
+    display: flex;
+    list-style-type: none;
+
+}
