@@ -21,7 +21,6 @@ body {
 
     background-color: #1F2937;
     color: #E5E7EB;
-    /*width: 100%;*/
     height: auto;
     padding-bottom: 100px;
     padding-top: 20px;
@@ -35,7 +34,7 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
 
 }
 
@@ -75,6 +74,7 @@ header ul {
 .hero-main-text {
 
     font-size: 48px;
+    font-weight: 900;
 }
 
 .hero {
@@ -85,27 +85,19 @@ header ul {
     flex-wrap: wrap;
 }
 
-/*.hero-image {
-
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 auto;
-
-}*/
-
+/* align-self here stops image from stretching to fill flex item */
 .hero img {
 
     width: 300px;
     height:auto;
-    flex-shrink: none;
+    align-self: flex-start;
 }
 
 .hero-text {
 
     display: flex;
     flex-direction: column;
+    gap: 10px;
     flex: 1 0 200px;
 
 }
@@ -113,13 +105,11 @@ header ul {
 .sign-up{
 
     width: 100px;
+    height: 30px;
+    background-color: rgb(84, 150, 84);
+    border-color: rgb(84, 150, 84);
+    border-radius: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 700;
 }
-
-
-
-/*.hero-text {
-
-    display: flex;
-    flex-direction: column;
-
-} */
