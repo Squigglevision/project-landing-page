@@ -82,6 +82,13 @@ header ul {
 
     font-size: 48px;
     font-weight: 900;
+    max-width: 500px;
+}
+
+.hero-secondary-text {
+
+    color: #c4c6ca;
+
 }
 
 /* align-items:start ensures image doesn't stretch to fill box */
@@ -106,8 +113,9 @@ header ul {
 
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     flex: 1 0 200px;
+    /*max-width: 520px;*/
 
 }
 
@@ -202,12 +210,13 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     max-width: 900px;
+    gap: 15px;
 
 }
 
 .rabbit-quote {
 
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     color: #1F2937;
 
@@ -216,5 +225,59 @@ flex-wrap: wrap;
 .quote-author {
 
     align-self:flex-end;
+    font-weight: 700;
+
+}
+
+.fourth-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.call-to-action {
+
+    background-color: rgb(84, 150, 84);
+    color: white;
+    margin: 10% 0;
+    max-width: 1020px;
+    flex: 1 1 900px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
+    flex-wrap:wrap;
+
+}
+
+.action-text-main{
+
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+.action-text-sub {
+
+    font-size: 14px;
+    color: #E5E7EB;
+
+}
+
+.action-button {
+
+    width: 100px;
+    height: 30px;
+    background-color: rgb(84, 150, 84);
+    border-color: white;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 700;
 
 }
