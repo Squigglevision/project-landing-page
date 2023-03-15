@@ -77,20 +77,21 @@ header ul {
     font-weight: 900;
 }
 
+/* align-items:start ensures image doesn't stretch to fill box */
+
 .hero {
 
     display: flex;
     justify-content: space-between;
+    align-items: start;
     gap: 50px;
     flex-wrap: wrap;
 }
 
-/* align-self here stops image from stretching to fill flex item */
 .hero img {
 
     width: 300px;
     height:auto;
-    align-self: flex-start;
 }
 
 .hero-text {
@@ -112,4 +113,37 @@ header ul {
     padding-bottom: 5px;
     color: white;
     font-weight: 700;
+}
+
+/*.instructor-image {
+
+
+    width: 200px;
+    height: 200px;
+    background-color:rgb(84, 150, 84);
+}*/
+
+.instructor-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill; 
+
+}
+
+.instructor-images {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.image-and-text {
+
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
 }
