@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     gap:20px;
+    width: 100%;
     
 
 }
@@ -12,7 +13,7 @@ body {
 
 .top-container, .second-container {
 
-    padding: 0 200px;
+   padding: 0 15%;
 
 }
 
@@ -20,11 +21,28 @@ body {
 
     background-color: #1F2937;
     color: #E5E7EB;
+    /*width: 100%;*/
+    height: auto;
     padding-bottom: 100px;
     padding-top: 20px;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.top-column {
+
     display: flex;
     flex-direction: column;
     gap: 50px;
+
+}
+
+header, .hero {
+
+    max-width: 1000px;
+
 }
 
 header {
@@ -32,6 +50,7 @@ header {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 
 }
@@ -61,15 +80,42 @@ header ul {
 .hero {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
-.hero-image {
+/*.hero-image {
 
-    width: 500px;
     background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+
+}*/
+
+.hero img {
+
+    width: 300px;
+    height:auto;
+    flex-shrink: none;
+}
+
+.hero-text {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 200px;
 
 }
+
+.sign-up{
+
+    width: 100px;
+}
+
+
 
 /*.hero-text {
 
