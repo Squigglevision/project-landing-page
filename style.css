@@ -3,6 +3,7 @@ body {
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    flex: 1;
     gap:0px;
     width: 100%;
     
@@ -18,6 +19,7 @@ body {
 .fifth-container {
 
    padding: 0 15%;
+   margin-left: -10px;
 
 }
 
@@ -26,7 +28,7 @@ body {
 
 .top-container {
 
-    background-color: #1F2937;
+    background-color: rgb(44, 35, 31);
     color: #E5E7EB;
     height: auto;
     padding-bottom: 100px;
@@ -123,8 +125,8 @@ header ul {
 
     width: 100px;
     height: 30px;
-    background-color: rgb(84, 150, 84);
-    border-color: rgb(84, 150, 84);
+    background-color: rgb(92, 151, 92);
+    border-color: rgb(71, 114, 71);
     border-radius: 5px;
     padding-bottom: 5px;
     color: white;
@@ -194,6 +196,10 @@ flex-wrap: wrap;
 
 }
 
+
+
+/* css for the third column */
+
 .third-container {
 
     background-color: #E5E7EB;
@@ -229,6 +235,10 @@ flex-wrap: wrap;
 
 }
 
+
+/* css for the fourth column */
+
+
 .fourth-container {
 
     display: flex;
@@ -241,7 +251,7 @@ flex-wrap: wrap;
 
 .call-to-action {
 
-    background-color: rgb(84, 150, 84);
+    background-color: rgb(92, 151, 92);
     color: white;
     margin: 10% 0;
     max-width: 1020px;
@@ -252,6 +262,7 @@ flex-wrap: wrap;
     justify-content: space-between;
     padding: 5% 15%;
     flex-wrap:wrap;
+    gap: 10px;
 
 }
 
@@ -273,11 +284,28 @@ flex-wrap: wrap;
 
     width: 100px;
     height: 30px;
-    background-color: rgb(84, 150, 84);
+    background-color: rgb(92, 151, 92);
     border-color: white;
     border-radius: 5px;
     padding-bottom: 5px;
     color: white;
     font-weight: 700;
 
+}
+
+/* css for the fourth column/footer */
+
+.fifth-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 35, 31);
+    padding: 1% 0;
+    margin-bottom: -10px;
+}
+
+.footer-text{
+font-size: 10px;
+color: #E5E7EB;
 }
